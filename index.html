@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A3558">
+<title>การปฏิบัติตัวก่อนผ่าตัด</title>
+<meta name="description" content="คำแนะนำการเตรียมตัวก่อนผ่าตัดต่อมไทรอยด์">
+<meta property="og:title" content="การปฏิบัติตัวก่อนผ่าตัด">
+<meta property="og:description" content="Thyroid Care · คำแนะนำการเตรียมตัวก่อนผ่าตัดต่อมไทรอยด์">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EAF1F8; --surface:#FFFFFF; --text:#1E293B; --muted:#5B6B7F; --line:#EEF1F5;
+  --brand:#2D7DD2; --brand-ink:#FFFFFF; --brand-soft:#EAF2FD; --link:#2D7DD2; --chev:#B0B8C4;
+  --warn-bg:#FEF3E2; --warn-line:#FBD9A5; --warn-ink:#92400E;
+  --sos-bg:#FDECEC; --sos-line:#F5B5B5; --sos:#B3261E; --sos-ink:#FFFFFF;
+  --line-green:#06C755;
+  --shadow:0 1px 3px rgba(15,30,60,.07);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F1621; --surface:#18212E; --text:#E6ECF3; --muted:#9AA8B8; --line:#243041;
+    --brand:#2A6DB8; --brand-ink:#FFFFFF; --brand-soft:#1D3450; --link:#8EC0F5; --chev:#5D6B7D;
+    --warn-bg:#33260F; --warn-line:#5E4518; --warn-ink:#F6C77D;
+    --sos-bg:#3A1716; --sos-line:#6B2A27; --sos:#E0564C; --sos-ink:#FFFFFF;
+    --line-green:#1FB85C;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F1621; --surface:#18212E; --text:#E6ECF3; --muted:#9AA8B8; --line:#243041;
+  --brand:#2A6DB8; --brand-ink:#FFFFFF; --brand-soft:#1D3450; --link:#8EC0F5; --chev:#5D6B7D;
+  --warn-bg:#33260F; --warn-line:#5E4518; --warn-ink:#F6C77D;
+  --sos-bg:#3A1716; --sos-line:#6B2A27; --sos:#E0564C; --sos-ink:#FFFFFF;
+  --line-green:#1FB85C;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Sarabun","Noto Sans Thai",-apple-system,sans-serif;background:var(--bg);color:var(--text);overflow-wrap:break-word;font-size:18px;line-height:1.7}
+.app{max-width:560px;margin:0 auto;min-height:100%}
+.header{background:linear-gradient(90deg,#0A3558,#1F66A6);color:var(--brand-ink);padding:14px 16px;display:flex;align-items:center;gap:10px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.back{background:none;border:0;color:inherit;font:inherit;font-size:30px;line-height:1;padding:2px 10px 6px 0;cursor:pointer;border-radius:8px}
+.back:focus-visible,.row:focus-visible,.tel:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.header .back:focus-visible{outline-color:#fff}
+.header h1{margin:0;font-size:20px;font-weight:700;line-height:1.4;text-wrap:balance}
+.hero{background:linear-gradient(180deg,#0A3558 0%,#12507F 55%,#1F66A6 100%);color:var(--brand-ink);padding:20px 16px 26px}
+.hero-img{display:block;width:82%;margin-inline:auto;max-width:100%;aspect-ratio:16/9;object-fit:cover;object-position:50% 12%;border-radius:14px;margin-bottom:14px;background:#0b2a4a}
+.hero .nw{white-space:nowrap}
+.hero p{margin:0;text-align:center;font-size:clamp(14px,4.5vw,19px);font-weight:600;line-height:1.6}
+main{padding-block:4px 32px}
+.list{margin:16px;background:var(--surface);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.row{display:flex;align-items:center;gap:14px;padding:16px;width:100%;background:none;border:0;border-bottom:1px solid var(--line);color:var(--text);font:inherit;text-align:left;cursor:pointer;text-decoration:none}
+.row:last-child{border-bottom:none}
+.row:active{background:var(--brand-soft)}
+.icon{width:42px;height:42px;border-radius:50%;background:var(--brand-soft);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.row .icon{width:88px;height:88px;font-size:40px}
+.row{gap:16px;padding-block:14px}
+.row .icon.pic.sq{border-radius:14px}
+.icon.pic{background:#fff;overflow:hidden;padding:0}
+.icon.pic.sq{border-radius:10px}
+.icon.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.app-note{display:inline-flex;align-items:center;gap:6px}
+.app-note img{width:22px;height:22px;border-radius:6px;flex-shrink:0}
+.label{flex:1;font-size:18px;line-height:1.6}
+.sub{display:block;font-size:14px;color:var(--muted);line-height:1.5}
+.chev{color:var(--chev);font-size:24px}
+.ext{color:var(--link);font-size:18px;font-weight:700}
+.row.doc .label{color:var(--link);font-weight:600}
+.item{display:flex;align-items:flex-start;gap:14px;padding:16px;border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:none}
+.item-title{display:block;font-weight:600;margin-bottom:6px}
+.content{margin:16px;background:var(--surface);border-radius:14px;padding:20px;box-shadow:var(--shadow);line-height:1.9}
+.note{margin:16px;background:var(--warn-bg);border:1px solid var(--warn-line);border-radius:14px;padding:16px 18px;font-size:17px;line-height:1.7;color:var(--warn-ink);font-weight:700}
+.section-title{margin:22px 16px 8px;font-size:15px;font-weight:700;color:var(--muted);letter-spacing:.3px}
+.card{padding:16px;border-bottom:1px solid var(--line)}
+.card:last-child{border-bottom:none}
+.card-name{font-weight:600;margin-bottom:4px}
+.card-note{font-size:15px;color:var(--muted);line-height:1.6;margin-bottom:10px}
+.tel{display:inline-flex;align-items:center;gap:8px;background:var(--brand-soft);color:var(--link);font-weight:700;font-size:17px;padding:9px 16px;border-radius:999px;text-decoration:none;font-variant-numeric:tabular-nums;user-select:all}
+.info{margin:16px;background:var(--brand-soft);border-radius:14px;padding:16px;display:flex;gap:14px;align-items:center;font-size:17px;line-height:1.6}
+.info img{width:52px;height:52px;border-radius:12px;flex-shrink:0}
+.info-title{font-weight:700;color:var(--link)}
+.info + .sos{margin-top:0}
+.sos{margin:16px;background:var(--sos-bg);border:1px solid var(--sos-line);border-radius:14px;padding:16px}
+.sos-label{color:var(--sos);font-weight:700;font-size:16px;margin-bottom:10px}
+.sos .tel{background:var(--sos);color:var(--sos-ink)}
+.hero + main .sos{margin-top:-14px;position:relative}
+.item.sign{align-items:center}
+.item.sign .dot{margin-top:0}
+.dline{display:flex;gap:14px;align-items:flex-start}
+.thumb{flex-shrink:0;width:112px;height:112px;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;cursor:zoom-in}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.item.big{padding:12px 16px}
+.bigpic{display:block;width:100%;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;cursor:zoom-in}
+.bigpic img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:50% 40%}
+.bigpic:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.banner{display:block;width:calc(100% - 32px);margin:16px 16px 0;padding:0;border:0;border-radius:14px;overflow:hidden;background:#fff;cursor:zoom-in;box-shadow:var(--shadow)}
+.banner img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:50% 45%}
+.banner.wide img{aspect-ratio:4/3;object-position:50% 58%}
+.banner.rs img{aspect-ratio:auto;height:auto}
+.banner.fit{width:min(calc(100% - 32px),240px);margin:16px auto 0;border:1px solid var(--line);border-radius:12px}
+.banner.fit img{aspect-ratio:auto;height:auto}
+.banner:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 16px 0}
+.tile{display:flex;flex-direction:column;gap:6px;padding:0 0 8px;border:0;border-radius:12px;overflow:hidden;background:var(--surface);box-shadow:var(--shadow);cursor:zoom-in;font:inherit;color:var(--text)}
+.tile img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.tile span{font-size:13px;line-height:1.35;padding:0 6px;text-align:center}
+.tile:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.item.stack{flex-direction:column;align-items:stretch;gap:12px}
+.itempic{display:block;width:min(100%,240px);margin:0 auto;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;cursor:zoom-in}
+.itempic img{display:block;width:100%;height:auto}
+.itempic:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.row.rowb{flex-direction:column;align-items:stretch;gap:12px}
+.rbpic{display:block;width:min(100%,140px);margin:0 auto;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.rbpic img{display:block;width:100%;height:auto}
+.rbline{display:flex;align-items:center;gap:14px}
+.list.small .itempic{width:min(100%,140px)}
+#scResult{scroll-margin-top:72px}
+.sc-intro{margin:16px;font-size:17px;line-height:1.6}
+.sc-intro span{font-size:14px;color:var(--muted)}
+.sc-hint{font-weight:400;color:var(--muted)}
+.sc-list{padding:4px 0}
+.sc-item{display:flex;align-items:center;gap:14px;padding:13px 16px;border-bottom:1px solid var(--line);font-size:18px;cursor:pointer}
+.sc-item:last-child{border-bottom:none}
+.sc-item input{width:24px;height:24px;flex-shrink:0;margin:0;accent-color:var(--brand)}
+.sc-none span{color:#177245;font-weight:600}
+.sc-msg{margin:4px 16px 0;min-height:1.4em;color:var(--sos);font-size:16px;text-align:center}
+.sc-btn{display:block;width:calc(100% - 32px);margin:12px 16px 0;height:56px;border:0;border-radius:16px;background:linear-gradient(90deg,#0A3558,#1F66A6);color:#fff;font:inherit;font-size:19px;font-weight:700;cursor:pointer}
+.sc-again{background:var(--surface);color:var(--link);border:1.5px solid var(--line);margin-bottom:8px}
+.sc-res{margin:12px 16px;border-radius:14px;padding:16px 18px;font-size:17px;line-height:1.6;border:1px solid}
+.sc-res p{margin:6px 0 10px}
+.sc-res-title{font-weight:700;font-size:18px}
+.sc-res-list{font-weight:600;margin-top:4px}
+.sc-red{background:var(--sos-bg);border-color:var(--sos-line);color:var(--text)}
+.sc-red .sc-res-title{color:var(--sos)}
+.sc-orange{background:var(--warn-bg);border-color:var(--warn-line)}
+.sc-orange .sc-res-title{color:var(--warn-ink)}
+.sc-blue{background:var(--brand-soft);border-color:transparent}
+.sc-blue .sc-res-title{color:var(--link)}
+.sc-green{background:#E6F4EC;border-color:#BFE3CC}
+.sc-green .sc-res-title{color:#177245}
+.sc-tel{background:var(--sos)!important;color:#fff!important}
+.sc-link{display:block;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-top:8px;font:inherit;font-size:16px;color:var(--link);font-weight:600;cursor:pointer}
+.scwarn{position:fixed;inset:0;z-index:60;background:rgba(10,20,35,.6);display:flex;align-items:center;justify-content:center;padding:20px}
+.scwarn[hidden]{display:none}
+.scwarn-box{background:var(--surface);color:var(--text);border-radius:18px;max-width:420px;width:100%;padding:22px 20px;display:flex;flex-direction:column;gap:12px}
+.scwarn-title{color:var(--sos);font-weight:700;font-size:19px}
+.scwarn-box p{margin:0;white-space:pre-line;font-size:17px;line-height:1.7}
+.scwarn-box .tel{justify-content:center}
+.scwarn-box button{height:48px;border:0;border-radius:12px;background:var(--bg);color:var(--text);font:inherit;font-weight:700;font-size:17px;cursor:pointer}
+.zoom{position:fixed;inset:0;z-index:50;background:rgba(10,20,35,.82);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px 16px}
+.zoom[hidden]{display:none}
+.zoom img{max-width:min(92vw,520px);max-height:75vh;border-radius:14px;background:#fff}
+.zoom p{margin:0;color:#fff;font-size:17px;text-align:center}
+.zoom button{background:#fff;color:#1E293B;border:0;border-radius:999px;font:inherit;font-weight:700;font-size:16px;padding:10px 28px;cursor:pointer}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--sos);flex-shrink:0;margin-top:10px}
+.line-badge{background:var(--line-green);color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:6px;letter-spacing:.3px}
+.hint{margin:4px 16px 0;font-size:13px;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){main{animation:fade .18s ease-out}}
+@keyframes fade{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}img{max-width:100%}</style>
+</head>
+<body>
+<div class="app">
+  <header class="header" id="hdr"></header>
+  <div id="hero"></div>
+  <main id="view"></main>
+  <div class="scwarn" id="scWarn" hidden><div class="scwarn-box"><div class="scwarn-title">⚠️ สังเกตอาการเพิ่มเติม</div><p id="scWarnBody"></p><a class="tel sc-tel" href="tel:1669">📞 โทร 1669</a><button type="button" id="scWarnClose">รับทราบ</button></div></div>
+  <div class="zoom" id="zoom" hidden><img id="zoomImg" alt=""><p id="zoomCap"></p><button type="button" id="zoomClose" aria-label="ปิดภาพ"></button></div>
+</div>
+
+<script>
+const PAGES = {
+  home: { title: "<span class=\"nw\">คำแนะนำการปฏิบัติตัวผู้ป่วยผ่าตัดต่อมไทรอยด์</span>" },
+  preop: { title: "การปฏิบัติตัวก่อนผ่าตัด", parent: "home" },
+  postop: { title: "การปฏิบัติตัวหลังผ่าตัด เมื่อกลับบ้าน", parent: "home" },
+  inhospital: { title: "การปฏิบัติตัวหลังผ่าตัด ขณะอยู่ที่ รพ.", parent: "home" },
+  wound: { title: "การดูแลแผลผ่าตัด", parent: "postop" },
+  calcium: { title: "สังเกตภาวะแคลเซียมในเลือดต่ำ", parent: "postop" },
+  iodine: { title: "งดอาหารไอโอดีน", parent: "postop" },
+  rai: { title: "การกลืนแร่ไอโอดีนรังสี", parent: "home" },
+  raibefore: { title: "การเตรียมตัวก่อนกลืนแร่", parent: "rai" },
+  raiafter: { title: "การปฏิบัติตัวหลังกลืนแร่", parent: "rai" },
+  danger: { title: "อาการผิดปกติที่ควรมาพบแพทย์", parent: "home" },
+  selfcheck: { title: "แบบประเมินอาการด้วยตนเอง", parent: "home" },
+  contact: { title: "ติดต่อโรงพยาบาล", parent: "home" }
+};
+
+const ICONS = {"pills": "images/icon_pills.jpg", "bandage": "images/icon_bandage.jpg", "mobile": "images/icon_mobile.jpg", "house": "images/icon_house.jpg", "sos": "images/icon_sos.jpg", "rad": "images/icon_rad.jpg", "phone": "images/icon_phone.jpg", "paper": "images/icon_paper.jpg", "signs": "images/icon_signs.jpg", "ivicon": "images/icon_ivicon.jpg", "woundicon": "images/icon_woundicon.jpg", "hospital": "images/icon_hospital.jpg", "noiodineicon": "images/icon_noiodineicon.jpg", "rama": "images/icon_rama.jpg", "spasmicon": "images/icon_spasmicon.jpg", "raiafter": "images/icon_raiafter.jpg", "selfcheck": "images/icon_selfcheck.jpg"};
+const ic = (icon) => ICONS[icon] ? `<span class="icon pic${icon==='signs'||icon==='selfcheck'?' sq':''}"><img src="${ICONS[icon]}" alt=""></span>` : `<span class="icon">${icon}</span>`;
+const tel = (num, text) => `<a class="tel" href="tel:${num.replace(/-/g,'')}">📞 ${text || 'โทร ' + num}</a>`;
+const row = (to, icon, label, sub) => `<button class="row" data-go="${to}">${ic(icon)}<span class="label">${label}${sub ? `<span class="sub">${sub}</span>` : ''}</span><span class="chev" aria-hidden="true">›</span></button>`;
+const doc = (href, icon, label, sub) => `<a class="row doc" href="${href}" target="_blank" rel="noopener">${ic(icon)}<span class="label">${label}<span class="sub">${sub || 'เปิดเอกสาร (Google Drive)'}</span></span><span class="ext" aria-hidden="true">↗</span></a>`;
+const item = (icon, title, body) => `<div class="item">${ic(icon)}<span class="label">${body ? `<span class="item-title">${title}</span>${body}` : title}</span></div>`;
+const thumb = (k, alt) => `<button class="thumb" data-zoom="${k}" aria-label="ดูภาพ${alt}"><img src="${SIGNS[k]}" alt="${alt}"></button>`;
+const itemP = (icon, title, body, k, alt) => `<div class="item sign"><span class="label">${body ? `<span class="item-title">${title}</span>${body}` : title}</span>${thumb(k, alt)}</div>`;
+const itemB = (icon, title, body, k, alt) => `<div class="item stack"><button class="itempic" data-zoom="${k}" aria-label="ดูภาพ${alt}"><img src="${SIGNS[k]}" alt="${alt}"></button><span class="label">${body ? `<span class="item-title">${title}</span>${body}` : title}</span></div>`;
+const bigImg = (k, alt) => `<div class="item big"><button class="bigpic" data-zoom="${k}" aria-label="ดูภาพ${alt}"><img src="${SIGNS[k]}" alt="${alt}"></button></div>`;
+const itemN = (title, body) => `<div class="item"><span class="label">${body ? `<span class="item-title">${title}</span>${body}` : title}</span></div>`;
+const rowB = (to, k, label) => `<button class="row rowb" data-go="${to}"><span class="rbpic"><img src="${SIGNS[k]}" alt=""></span><span class="rbline"><span class="label">${label}</span><span class="chev" aria-hidden="true">›</span></span></button>`;
+const NUC = `<div class="note">⚠️ สอบถามเพิ่มเติม:<br>สาขาเวชศาสตร์นิวเคลียร์ รพ.รามาธิบดี<br>โทร. 02-201-1192</div>`;
+const SOS = `<div class="sos"><div class="sos-label">🚨 กรณีเจ็บป่วยฉุกเฉินหรือวิกฤต</div>${tel('1669','โทร 1669')}</div>`;
+
+const VIEWS = {
+  home: () => `<div class="list home">
+      ${row('preop','ivicon','การปฏิบัติตัวก่อนผ่าตัด')}
+      ${row('inhospital','hospital','การปฏิบัติตัวหลังผ่าตัด<br>ขณะอยู่ที่ รพ.')}
+      ${row('postop','house','การปฏิบัติตัวหลังผ่าตัด<br>เมื่อกลับบ้าน')}
+      ${row('danger','signs','อาการผิดปกติที่ควรมาพบแพทย์')}
+      ${row('selfcheck','selfcheck','แบบประเมินอาการด้วยตนเอง','เช็กอาการหลังผ่าตัดวันนี้')}
+      ${row('rai','rad','การกลืนแร่ไอโอดีนรังสี')}
+      ${row('contact','phone','ติดต่อโรงพยาบาล','เบอร์ติดต่อหน่วยตรวจและหอผู้ป่วย')}
+    </div>`,
+  preop: () => `<button class="banner" data-zoom="ivbed" aria-label="ดูภาพผู้ป่วยเตรียมผ่าตัด"><img src="${SIGNS.ivbed}" alt="ผู้ป่วยนอนโรงพยาบาลเตรียมผ่าตัด"></button>
+    <div class="section-title">ก่อนวันผ่าตัด (วันนอน รพ.)</div>
+    <div class="list">
+      ${itemB('🗓️','1. มาตามวันนัด นอน รพ. ก่อนผ่าตัด','เพื่อเตรียมความพร้อมร่างกายก่อนผ่าตัด','admit','มาตามวันนัด นอนโรงพยาบาล')}
+      ${itemB('🧳','2. เตรียมของใช้ส่วนตัวมา รพ.','เช่น แปรงสีฟัน ยาสีฟัน สบู่ ยาสระผม<br>มีดโกน ผ้าเช็ดตัว ฯลฯ','toiletry','ของใช้ส่วนตัว แปรงสีฟัน ยาสีฟัน สบู่ ผ้าเช็ดตัว')}
+      ${itemB('🩸','3. เจาะเลือดเตรียมผ่าตัด','ตามแผนการรักษา','blood','เจาะเลือดเตรียมผ่าตัด')}
+      ${itemB('pills','4. ถ้ามีโรคประจำตัว','ให้นำยาที่รับประทานเป็นประจำ<br>ติดตัวมา รพ. ด้วยทุกครั้ง','meds','ยาที่รับประทานเป็นประจำ')}
+      ${itemN('5. ยาละลายลิ่มเลือดหรือยาที่แพทย์ให้งด (ถ้ามี)','ควรงดตามแผนการรักษาก่อนผ่าตัด')}
+      ${itemB('💅','6. ไม่ทาเล็บมือ-เท้า ต่อเล็บ ต่อผม','','nails','ไม่ทาเล็บ ไม่ต่อเล็บ ไม่ต่อผม')}
+      ${itemN('7. ทำใจให้สบาย อย่าเครียด')}
+      ${itemB('😴','8. พักผ่อนให้เพียงพอ','ถ้านอนไม่หลับ กรุณารายงานเจ้าหน้าที่ให้ทราบ','sleep','พักผ่อนให้เพียงพอ')}
+      ${itemB('🫁','9. ฝึกการหายใจอย่างถูกวิธี','หายใจเข้าทางจมูกช้าๆ ให้เต็มปอด (ท้องป่อง)<br>นับ 1-10 กลั้นลมหายใจ 2-3 วินาที<br>แล้วหายใจออกทางปากช้าๆ จนท้องยุบ<br>ฝึกทำ 5-10 ครั้ง','breathe','ฝึกหายใจเข้าทางจมูกให้ท้องป่อง')}
+      ${itemB('🚱','10. งดน้ำดื่มและอาหารหลังเที่ยงคืน','ต่อเนื่องจนกระทั่งไปห้องผ่าตัด','npo','งดน้ำและอาหารหลังเที่ยงคืน')}
+    </div>
+    <div class="section-title">เช้าวันผ่าตัด</div>
+    <div class="list">
+      ${itemB('🚿','1. อาบน้ำ สระผมได้ตามปกติ','ไม่ใส่น้ำมันใส่ผม เจล สเปรย์<br>ไม่ทาแป้งหรือโลชั่น','shower','อาบน้ำ สระผมได้ตามปกติ')}
+      ${itemB('👕','2. เปลี่ยนชุดเตรียมเข้าห้องผ่าตัดในช่วงเช้า','','gown','เปลี่ยนชุดเตรียมเข้าห้องผ่าตัด')}
+      ${itemB('💉','3. ให้น้ำเกลือและยาก่อนไปห้องผ่าตัด','ตามแผนการรักษา','ivbed','ให้น้ำเกลือก่อนไปห้องผ่าตัด')}
+      ${itemB('👓','4. ถอดอุปกรณ์ทุกชนิดที่สามารถถอดได้','เช่น ฟันปลอม Contact lens<br>นาฬิกา สร้อย แหวน เป็นต้น','denture','ถอดฟันปลอม คอนแทคเลนส์')}
+      ${itemB('💍','5. ไม่นำของมีค่าติดตัวไปห้องผ่าตัด','','valuables','ของมีค่า สร้อย แหวน นาฬิกา เงิน')}
+    </div>
+    <div class="note">⚠️ อาการข้างเคียงหลังดมยาสลบที่อาจเกิดขึ้นได้ เช่น เจ็บคอ คลื่นไส้อาเจียน เวียนศีรษะ เป็นต้น<br>หลังผ่าตัด หากมีอาการ ให้แจ้งพยาบาลทราบทันที</div>`,
+  postop: () => `<div class="list small">
+      ${rowB('wound','tegaderm','การดูแลแผลผ่าตัด เมื่อกลับบ้าน')}
+      ${itemB('📅','มาตรวจติดตามอาการตามแพทย์นัดค่ะ','<span class="app-note"><img src="'+ICONS.rama+'" alt="RAMA APP"><span>เลื่อนนัดได้ทาง <span style="white-space:nowrap">RAMA APP</span></span></span>','appt','มาพบแพทย์ตามวันนัด')}
+      ${itemB('⚠️','หลีกเลี่ยงการหันศีรษะไปมาอย่างรวดเร็ว<br>อาจทำให้กล้ามเนื้อคออักเสบได้','','noturn','ห้ามหันศีรษะไปมาอย่างรวดเร็ว')}
+      ${rowB('calcium','spasm','สังเกตภาวะแคลเซียมในเลือดต่ำ')}
+      ${rowB('iodine','noiodine','งดอาหารไอโอดีน (ถ้าต้องกลืนแร่)')}
+    </div>
+    <div class="list">
+      ${doc('https://drive.google.com/file/d/1HlTWkEJk9oe3Hgxj3uw0rmRQoEvIMQzR/view?usp=drivesdk','📄','แผ่นพับคำแนะนำการปฏิบัติหลังผ่าตัดไทรอยด์')}
+    </div>`,
+  inhospital: () => `<div class="list">
+      ${itemB('🛏️','1. ท่านอน','ถ้ารู้สึกตัวดี ให้นอนหนุนหมอนได้<br>เพื่อให้ศีรษะงอเล็กน้อย ลดการดึงรั้งของแผล','recline','นอนหนุนหมอน ศีรษะงอเล็กน้อย')}
+      ${itemB('🩺','2. หากปวดศีรษะ ใจสั่น หรือปวดแผล','แจ้งพยาบาล เพื่อวัดความดันโลหิต<br>และสังเกตอาการเปลี่ยนแปลง','headache','ปวดศีรษะ ปวดแผล')}
+      ${itemB('🤢','3. หากมีอาการคลื่นไส้อาเจียน','แน่นบริเวณคอ หายใจลำบาก<br>ให้รีบแจ้งพยาบาล','nausea','คลื่นไส้อาเจียน')}
+      ${itemB('🫁','4. หากมีเสมหะ','ควรไอเอาเสมหะออกอย่างถูกวิธี<br>เพื่อป้องกันทางเดินหายใจอุดกั้น','cough','ไอเอาเสมหะออก')}
+      ${itemB('🍲','5. รับประทานอาหารอ่อน','และดื่มน้ำมากๆ เพื่อช่วยละลายเสมหะ','softfood','อาหารอ่อน และน้ำดื่ม')}
+      ${itemB('⚠️','6. ระวัง!!!','อย่าให้สายระบายเลือดที่ต่อจากแผล<br>หัก พับ งอหรือหลุด เนื่องจากสายยาง<br>จะช่วยระบายเลือด/น้ำเหลืองที่ค้าง<br>อยู่ในแผลออก ทำให้แผลหายเร็วขึ้น','drain','ผู้ป่วยนอนพักพร้อมสายระบายเลือดจากแผล')}
+      ${itemB('✋','7. หากมีอาการกระตุกที่มุมปาก ตา','ชาปลายมือปลายเท้าและรอบปาก<br>ให้รีบแจ้งพยาบาล<br>อาจมีระดับแคลเซียมในเลือดต่ำได้','numb','ชาปลายมือปลายเท้า')}
+    </div>`,
+  wound: () => `<div class="list">
+      ${itemN('หลีกเลี่ยงไม่ให้แผลเปียกน้ำ')}
+      ${itemB('🩹','แผลที่ปิดด้วยแผ่นกันน้ำ','Tegaderm with pad<br>หากไม่เปียกน้ำ / แผลไม่ซึม<br>ไม่ต้องทำแผล รอมาพบแพทย์วันนัด<br>หากแผลซึม : ทำแผลใกล้บ้านวันละ 1 ครั้ง<br>หรือปิดแผ่นกันน้ำไว้เหมือนเดิม','tegaderm','แผลปิดด้วยแผ่นกันน้ำ (Tegaderm with pad)')}
+      ${itemB('🧴','แผลที่ปิดด้วย Gauze หากเปียกน้ำ','ทำแผลใกล้บ้านวันละ 1 ครั้ง','gauze','แผลปิดด้วยผ้าก๊อซและเทป')}
+    </div>`,
+  calcium: () => `<div class="tiles"><button class="tile" data-zoom="numb" aria-label="ดูภาพชาปลายมือปลายเท้า"><img src="${SIGNS.numb}" alt="ชาปลายมือปลายเท้า"><span>ชาปลายมือปลายเท้า</span></button><button class="tile" data-zoom="spasm" aria-label="ดูภาพมือจีบเกร็ง"><img src="${SIGNS.spasm}" alt="มือจีบเกร็ง"><span>มือจีบเกร็ง</span></button><button class="tile" data-zoom="seizure" aria-label="ดูภาพชักเกร็งกระตุก"><img src="${SIGNS.seizure}" alt="ชักเกร็งกระตุก"><span>ชักเกร็งกระตุก</span></button></div>
+    <div class="content">สังเกตอาการภาวะแคลเซียมในเลือดต่ำ<br>(กรณีผ่าตัดไทรอยด์ทั้งสองข้าง) เช่น<br>อาการชาปลายมือปลายเท้าและรอบปาก</div>`,
+  iodine: () => `<button class="banner fit" data-zoom="noiodine" aria-label="ดูภาพงดอาหารทะเลและเครื่องปรุงรส"><img src="${SIGNS.noiodine}" alt="งดอาหารทะเลและเครื่องปรุงรสที่มีไอโอดีน"></button>
+    <div class="content">ถ้าผ่าตัดไทรอยด์ออกทั้งหมด<br>และต้องกลืนแร่หลังผ่าตัด<br>ควรงดอาหารที่มีไอโอดีน เช่น<br>อาหารทะเล น้ำปลา ไข่ที่มีไอโอดีน<br>ยาหยอดตาบางชนิด และ<br>ยากลุ่ม Amiodarone</div>
+    <div class="list">
+      ${doc('https://drive.google.com/file/d/1MT52F3ydsHSi115m3S9sq5Gh44wBlcGX/view?usp=sharing','noiodineicon','คู่มืออาหารไอโอดีนต่ำสำหรับเตรียมตัวก่อนการรักษาด้วยไอโอดีนรังสี')}
+    </div>`,
+  rai: () => `<button class="banner wide rs" data-zoom="raiswallow" aria-label="ดูภาพการกลืนแร่ไอโอดีนรังสี"><img src="${SIGNS.raiswallow}" alt="ผู้ป่วยกลืนแร่ไอโอดีนรังสี"></button>
+    <div class="list">
+      ${row('raibefore','rad','การเตรียมตัวก่อนกลืนแร่<br>ไอโอดีนรังสี')}
+      ${row('raiafter','raiafter','การปฏิบัติตัวหลังกลืนแร่<br>ไอโอดีนรังสี')}
+    </div>
+    <div class="list">
+      ${doc('https://drive.google.com/file/d/1MT52F3ydsHSi115m3S9sq5Gh44wBlcGX/view?usp=sharing','noiodineicon','คู่มืออาหารไอโอดีนต่ำสำหรับเตรียมตัวก่อนการรักษาด้วยไอโอดีนรังสี')}
+    </div>`,
+  raibefore: () => `<div class="list">
+      ${doc('https://drive.google.com/file/d/1rQip0GthoxGvd9S8xfT-2dtyWp-wNezF/view?usp=sharing','📄','เอกสารคำแนะนำก่อนการรักษาด้วยไอโอดีนรังสี (กลืนแร่)')}
+    </div>
+    <div class="list">
+      ${itemB('pills','1. หยุดยาไทรอยด์ฮอร์โมน (Euthyrox)','4-6 สัปดาห์ก่อนกลืนแร่<br>หลังหยุดยาอาจมีอาการไทรอยด์ฮอร์โมนต่ำ<br>เช่น เหนื่อยง่าย อ่อนแรง ใจสั่น<br>อ้วนขึ้น ทั้งๆ ที่รับประทานไม่มาก<br>บวมหน้า/รอบตา/ลำตัว/แขนขา<br>เฉื่อยชา ทำงานช้า คิดช้า<br>ขาดสมาธิ ความจำไม่ดี<br>ง่วงนอนตลอดเวลา ท้องผูก','stopthy','หยุดยาไทรอยด์ฮอร์โมน')}
+      ${itemB('🍽️','2. งดอาหารและยาที่มีไอโอดีนสูง','2 สัปดาห์ก่อนกลืนแร่ (หรือตามแพทย์สั่ง)<br>งดอาหารทะเลทุกชนิด (ทั้งสดและแห้ง)<br>เบเกอรี่ทุกชนิด, ผัก/ผลไม้ดองทุกชนิด<br>เครื่องปรุงรส (น้ำปลา ซีอิ๊ว ซอสหอย เกลือ)<br>อาหารที่เติมไอโอดีน<br>ตัวอย่าง<br>อาหารที่มีไอโอดีนต่ำ : ผักสด เนื้อสด','noiodine','งดอาหารทะเลและเครื่องปรุงรส')}
+      ${itemB('🤰','3. ผู้ป่วยสตรีวัยเจริญพันธุ์','ให้คุมกำเนิดก่อนกลืนแร่<br>จนถึง 6 เดือนหลังรักษาด้วยไอโอดีนรังสี','contra','ยาคุมกำเนิด')}
+      ${itemB('🚫','4. งดให้นมบุตรเด็ดขาด','ตั้งแต่วันที่มารักษาด้วยไอโอดีนรังสี','nobreast','งดให้นมบุตร')}
+    </div>` + NUC,
+  raiafter: () => `<button class="banner rs" data-zoom="raiafterbanner" aria-label="ดูภาพผู้ป่วยหลังกลืนแร่"><img src="${SIGNS.raiafterbanner}" alt="ผู้ป่วยหลังกลืนแร่ ดื่มน้ำมากๆ"></button>
+    <div class="list">
+      ${doc('https://drive.google.com/file/d/1YtzvjF1ssbGIQB6tEjLeojSDWJdVatpq/view?usp=sharing','📄','เอกสารคำแนะนำหลังการรักษาด้วยไอโอดีนรังสี (กลืนแร่)')}
+    </div>
+    <div class="list">
+      ${itemN('1. วันที่ออกจากโรงพยาบาล','กลับบ้านทันที<br>ขับรถเองหรือนั่งห่างผู้อื่นให้มากที่สุด<br>(หลีกเลี่ยงขนส่งสาธารณะ<br>หรือเว้นระยะห่างอย่างน้อย 30 ซม.)')}
+      ${itemB('🛏️','2. นอนแยกห้องนอน/นอนห่างจากผู้ใหญ่','อย่างน้อย 2 เมตร เป็นเวลา 1 วัน<br>หลังออกจาก รพ.','seproom','นอนแยกห้อง')}
+      ${itemN('3. นอนในห้องแยกจากสตรีมีครรภ์ ทารก','หรือเด็กอายุต่ำกว่า 18 ปี เป็นเวลา 13 วัน<br>หลังออกจาก รพ.')}
+      ${itemN('4. อยู่ห่างจากเด็กอายุต่ำกว่า 18 ปี','อย่างน้อย 2 เมตร เป็นเวลา 7 วัน<br>หลังออกจาก รพ.')}
+      ${itemB('','5. รับประทานยาฮอร์โมนไทรอยด์ตามแพทย์สั่ง','ห้ามเพิ่ม/ลดหรืองดยาด้วยตนเอง','thymed','ยาไทรอยด์ฮอร์โมน')}
+      ${itemB('💧','6. ดื่มน้ำมากๆ (1-2 แก้วต่อชั่วโมง)','และปัสสาวะบ่อยๆ<br>เพื่อลดปริมาณรังสีในช่วง 7 วัน<br>หลังได้รับไอโอดีน','water','ดื่มน้ำมากๆ')}
+      ${itemB('🚽','7. หลังจากอุจจาระ/ปัสสาวะ','ให้ราดน้ำ/กดชักโครกให้สะอาด<br>ทำความสะอาด/เช็ดปัสสาวะที่เปรอะเปื้อน<br>ผู้ป่วยผู้ชาย ควรใช้โถปัสสาวะ หรือ<br>ถ้าเป็นชักโครก ควรนั่งปัสสาวะ<br>ในช่วง 7 วันหลังจากได้รับไอโอดีนรังสี','flush','กดชักโครกให้สะอาด')}
+      ${itemB('','8. ล้างมือทุกครั้งหลังเข้าห้องน้ำ','อาบน้ำชำระล้างร่างกาย<br>อย่างน้อย 1-2 ครั้งต่อวัน ในช่วง 7 วัน<br>หลังจากได้รับไอโอดีนรังสี','handwash','ล้างมือหลังเข้าห้องน้ำ')}
+      ${itemB('','9. ไม่ควรใช้อุปกรณ์/ของร่วมกับผู้อื่น','แยกซักเสื้อผ้า ผ้าเช็ดตัว<br>และไม่ใช้ของร่วมกับผู้อื่น<br>(ช้อน แก้วน้ำ ผ้าเช็ดหน้า) ในช่วง 7 วัน<br>หลังจากได้รับไอโอดีนรังสี','noshare','ไม่ใช้ของร่วมกับผู้อื่น')}
+      ${itemB('🚫','10. ห้ามให้นมบุตรหลังได้รับไอโอดีนรังสี','','nobreast','ห้ามให้นมบุตร')}
+      ${itemB('🤰','11. คุมกำเนิดอย่างน้อย 6 เดือน (ผู้ป่วยหญิง)','หรือ 3 เดือน (ผู้ป่วยชาย) หลังได้รับไอโอดีนรังสี','contra','คุมกำเนิด')}
+      ${itemB('✈️','12. หากมีแผนเดินทางต่างประเทศ','หรือเดินทางผ่านสนามบิน/ท่าเรือ<br>ที่อาจมีเครื่องวัดรังสีภายใน 4 เดือน<br>กรุณาแจ้งเจ้าหน้าที่<br>ณ โรงพยาบาลที่รับไอโอดีนรังสี','airport','เดินทางผ่านสนามบิน')}
+    </div>` + NUC,
+  danger: () => `<div class="list">
+      ${[['หายใจเหนื่อย','breath','หายใจเหนื่อย ค่าออกซิเจนในเลือดต่ำ'],['แผลอักเสบบวมแดง<br>กดเจ็บมีหนองหรือมีเลือดออก','wound','แผลผ่าตัดบวมแดง มีหนอง'],['เสียงเปลี่ยน/เสียงแหบ กลืนลำบาก','swallow','กลืนลำบาก เจ็บคอ'],['ชาปลายมือ ปลายเท้า','numb','ชาปลายนิ้วมือ นิ้วเท้า'],['มือจีบเกร็ง','spasm','มือจีบเกร็ง นิ้วเท้าเกร็ง'],['ชักเกร็งกระตุก','seizure','ชักเกร็งกระตุก']]
+        .map(([t,k,alt]) => `<div class="item stack">${k ? `<button class="itempic" data-zoom="${k}" aria-label="ดูภาพ${alt}"><img src="${SIGNS[k]}" alt="${alt}"></button>` : ''}<span class="dline"><span class="dot"></span><span class="label">${t}</span></span></div>`).join('')}
+    </div>
+    <div class="note">⚠️ ให้รีบมาพบแพทย์ก่อนวันนัดค่ะ</div>`,
+  selfcheck: () => `<button class="banner fit" data-zoom="schome" aria-label="ดูภาพผู้ป่วยพักฟื้นที่บ้าน"><img src="${SIGNS.schome}" alt="ผู้ป่วยหลังผ่าตัดพักฟื้นที่บ้าน"></button>
+    <div class="sc-intro">ตอบตามอาการจริงของคุณวันนี้ แล้วกด <b>ดูผลการประเมิน</b><br><span>ข้อมูลไม่ถูกส่งหรือบันทึกที่ใด ใช้สำหรับดูคำแนะนำเท่านั้น</span></div>
+    <form id="scForm" novalidate>
+      <div class="section-title">วันนี้คุณมีอาการต่อไปนี้หรือไม่? <span class="sc-hint">(เลือกได้มากกว่า 1 ข้อ)</span></div>
+      <div class="list sc-list">
+        ${SC_SYMPTOMS.map(v => `<label class="sc-item"><input type="checkbox" name="sc-sym" value="${v}"><span>${v}</span></label>`).join('')}
+        <label class="sc-item sc-none"><input type="checkbox" name="sc-sym" id="scNone" value="ไม่มีอาการ"><span>ไม่มีอาการ</span></label>
+      </div>
+      <p class="sc-msg" id="scMsg" role="status" aria-live="polite"></p>
+      <button type="submit" class="sc-btn">ดูผลการประเมิน</button>
+    </form>
+    <div id="scResult"></div>`,
+  contact: () => `<div class="info"><img src="${ICONS.rama}" alt="RAMA APP"><div><div class="info-title">ติดต่อเลื่อนนัดได้</div>ทาง RAMA APP / เบอร์โทรศัพท์<br>ก่อนตรวจอย่างน้อย 7 วัน</div></div>` + SOS + `
+    <div class="section-title">แผนกตรวจผู้ป่วยนอก</div>
+    <div class="list">
+      <div class="card"><div class="card-name">1. หน่วยตรวจผู้ป่วยนอก โสต ศอ นาสิก</div><div class="card-note">(ตึกพระเทพฯ ชั้น 2)<br><span class="app-note"><img src="${ICONS.rama}" alt="RAMA APP">เลื่อนนัดได้ทาง RAMA APP / โทรศัพท์</span><br>ก่อนตรวจอย่างน้อย 7 วัน</div>${tel('02-200-4069')}</div>
+      <div class="card"><div class="card-name">2. หน่วยตรวจผู้ป่วยนอกมะเร็ง 2</div><div class="card-note"><span class="app-note"><img src="${ICONS.rama}" alt="RAMA APP">เลื่อนนัดได้ทาง RAMA APP / โทรศัพท์</span><br>ก่อนตรวจอย่างน้อย 7 วัน</div>${tel('02-201-0484')}</div>
+      <div class="card"><div class="card-name">3. หน่วยตรวจเวชศาสตร์นิวเคลียร์</div>${tel('02-201-1192')}</div>
+    </div>
+    <div class="section-title">หอผู้ป่วย</div>
+    <div class="list">
+      <div class="card"><div class="card-name">หอผู้ป่วยจักษุโสตศอนาสิก ชาย</div>${tel('02-201-1613')}</div>
+      <div class="card"><div class="card-name">หอผู้ป่วยจักษุโสตศอนาสิก หญิง</div>${tel('02-201-1313')}</div>
+      <div class="card"><div class="card-name">หอผู้ป่วยจักษุโสตพิเศษ</div>${tel('02-201-1614')}</div>
+    </div>
+    <p class="hint">หากกดโทรไม่ได้ ให้กดค้างที่เบอร์เพื่อคัดลอก</p>`
+};
+
+const HERO_IMG = "images/hero.jpg";
+const SIGNS = {"seizure": "images/sign_seizure.jpg", "swallow": "images/sign_swallow.jpg", "wound": "images/sign_wound.jpg", "spasm": "images/sign_spasm.jpg", "breath": "images/sign_breath.jpg", "numb": "images/sign_numb.jpg", "toiletry": "images/sign_toiletry.jpg", "valuables": "images/sign_valuables.jpg", "denture": "images/sign_denture.jpg", "ivbed": "images/sign_ivbed.jpg", "shower": "images/sign_shower.jpg", "breathe": "images/sign_breathe.jpg", "npo": "images/sign_npo.jpg", "blood": "images/sign_blood.jpg", "sleep": "images/sign_sleep.jpg", "admit": "images/sign_admit.jpg", "meds": "images/sign_meds.jpg", "nails": "images/sign_nails.jpg", "gown": "images/sign_gown.jpg", "cough": "images/sign_cough.jpg", "headache": "images/sign_headache.jpg", "recline": "images/sign_recline.jpg", "softfood": "images/sign_softfood.jpg", "nausea": "images/sign_nausea.jpg", "drain": "images/sign_drain.jpg", "gauze": "images/sign_gauze.jpg", "tegaderm": "images/sign_tegaderm.jpg", "noiodine": "images/sign_noiodine.jpg", "noturn": "images/sign_noturn.jpg", "appt": "images/sign_appt.jpg", "contra": "images/sign_contra.jpg", "seproom": "images/sign_seproom.jpg", "water": "images/sign_water.jpg", "airport": "images/sign_airport.jpg", "stopthy": "images/sign_stopthy.jpg", "nobreast": "images/sign_nobreast.jpg", "flush": "images/sign_flush.jpg", "noshare": "images/sign_noshare.jpg", "handwash": "images/sign_handwash.jpg", "thymed": "images/sign_thymed.jpg", "raiswallow": "images/sign_raiswallow.jpg", "raiafterbanner": "images/sign_raiafterbanner.jpg", "schome": "images/sign_schome.jpg"};
+const SC_SYMPTOMS = ['แผลซึมมาก','แผลบวมแดง มีหนอง','ปวดแผล','หายใจเหนื่อย','เสียงแหบ','กลืนลำบาก','ชาปลายมือปลายเท้า','ชารอบปาก','มือจีบเกร็ง','ชักเกร็งกระตุก'];
+const SC_URGENT = ['หายใจเหนื่อย','มือจีบเกร็ง','ชักเกร็งกระตุก'];
+const SC_SEE = ['แผลบวมแดง มีหนอง','เสียงแหบ','กลืนลำบาก','ชาปลายมือปลายเท้า','ชารอบปาก'];
+const SC_WARN = {
+  'หายใจเหนื่อย': 'คุณมีอาการ\nหายใจเหนื่อยมาก\nแน่นหายใจไม่ออกร่วมด้วย หรือไม่\n\nถ้ามี ติดต่อสถานพยาบาลใกล้บ้าน / โทร 1669\nไม่ต้องรอจนถึงวันนัดเพื่อมาที่ รพ รามา ค่ะ',
+  'มือจีบเกร็ง': 'คุณมีอาการ\nมือจีบเกร็ง หรือ ชักเกร็งกระตุก หรือไม่ ???\n\nถ้ามี รีบติดต่อสถานพยาบาลใกล้บ้าน / โทร 1669\nไม่ต้องรอจนถึงวันนัดเพื่อมาที่ รพ รามา ค่ะ',
+  'ชักเกร็งกระตุก': 'คุณมีอาการ\nมือจีบเกร็ง หรือ ชักเกร็งกระตุก หรือไม่ ???\n\nถ้ามี รีบติดต่อสถานพยาบาลใกล้บ้าน / โทร 1669\nไม่ต้องรอจนถึงวันนัดเพื่อมาที่ รพ รามา ค่ะ'
+};
+const scGo = (to, label) => `<button type="button" class="sc-link" data-go="${to}">${label} ›</button>`;
+function scResultHTML(sym) {
+  const urgent = sym.filter(v => SC_URGENT.includes(v));
+  const see = sym.filter(v => SC_SEE.includes(v));
+  const other = sym.filter(v => v !== 'ไม่มีอาการ' && !SC_URGENT.includes(v) && !SC_SEE.includes(v));
+  let h = '';
+  if (urgent.length) {
+    h += `<div class="sc-res sc-red"><div class="sc-res-title">⚠️ พบอาการที่ต้องรีบรับการรักษา</div>
+      <div class="sc-res-list">${urgent.join(' · ')}</div>
+      <p>รีบติดต่อสถานพยาบาลใกล้บ้าน หรือโทร 1669 ทันที<br>ไม่ต้องรอจนถึงวันนัด</p>
+      <a class="tel sc-tel" href="tel:1669">📞 โทร 1669</a></div>`;
+  }
+  if (see.length) {
+    h += `<div class="sc-res sc-orange"><div class="sc-res-title">พบอาการที่ควรมาพบแพทย์ก่อนวันนัด</div>
+      <div class="sc-res-list">${see.join(' · ')}</div>
+      <p>ให้รีบมาพบแพทย์ก่อนวันนัดค่ะ</p>
+      ${scGo('contact','ดูเบอร์ติดต่อโรงพยาบาล')}${scGo('danger','ดูอาการผิดปกติที่ควรมาพบแพทย์')}</div>`;
+  }
+  if (other.length) {
+    h += `<div class="sc-res sc-blue"><div class="sc-res-title">อาการที่ควรดูแลและสังเกตต่อ</div>
+      <div class="sc-res-list">${other.join(' · ')}</div>
+      <p>ดูวิธีดูแลแผลตามคำแนะนำ หากอาการไม่ดีขึ้นหรือมีข้อสงสัย ติดต่อโรงพยาบาล</p>
+      ${scGo('wound','ดูวิธีดูแลแผลผ่าตัด')}${scGo('contact','ดูเบอร์ติดต่อโรงพยาบาล')}</div>`;
+  }
+  if (!urgent.length && !see.length && !other.length) {
+    h += `<div class="sc-res sc-green"><div class="sc-res-title">✓ ไม่พบอาการผิดปกติ</div>
+      <p>ดูแลตนเองตามคำแนะนำต่อไป และมาตรวจตามนัดค่ะ</p></div>`;
+  }
+  return `<div class="section-title">ผลการประเมิน</div>${h}<button type="button" class="sc-btn sc-again" id="scAgain">ประเมินใหม่</button>`;
+}
+const hdr = document.getElementById('hdr'), hero = document.getElementById('hero'), view = document.getElementById('view');
+
+function render(id, push){
+  if (!PAGES[id]) id = 'home';
+  const p = PAGES[id];
+  if (id === 'home') {
+    hdr.innerHTML = ''; hdr.hidden = true;
+    hero.innerHTML = `<div class="hero"><img class="hero-img" src="${HERO_IMG}" alt="ภาพจำลองต่อมไทรอยด์บริเวณลำคอ"><p>${p.title}</p></div>`;
+  } else {
+    hdr.hidden = false; hdr.innerHTML = `<button class="back" aria-label="ย้อนกลับ" data-go="${p.parent}">‹</button><h1>${p.title}</h1>`;
+    hero.innerHTML = '';
+  }
+  view.innerHTML = VIEWS[id]();
+  view.style.animation = 'none'; void view.offsetWidth; view.style.animation = '';
+  window.scrollTo(0,0);
+  if (push) { try { history.replaceState(null,'', id === 'home' ? location.pathname : '#' + id); } catch(e){} }
+}
+
+const scWarn = document.getElementById('scWarn');
+document.getElementById('scWarnClose').addEventListener('click', () => { scWarn.hidden = true; });
+document.addEventListener('change', e => {
+  const t = e.target;
+  if (!t.matches || !t.matches('input[name="sc-sym"]')) { if (t.matches && t.matches('input[name="sc-und"]')) { const m=document.getElementById('scMsg'); if(m) m.textContent=''; } return; }
+  const m = document.getElementById('scMsg'); if (m) m.textContent = '';
+  if (t.id === 'scNone') { if (t.checked) document.querySelectorAll('input[name="sc-sym"]').forEach(el => { if (el !== t) el.checked = false; }); }
+  else if (t.checked) { const n = document.getElementById('scNone'); if (n) n.checked = false; if (SC_WARN[t.value]) { document.getElementById('scWarnBody').textContent = SC_WARN[t.value]; scWarn.hidden = false; } }
+});
+document.addEventListener('submit', e => {
+  if (e.target.id !== 'scForm') return;
+  e.preventDefault();
+  const sym = [...document.querySelectorAll('input[name="sc-sym"]:checked')].map(el => el.value);
+  const m = document.getElementById('scMsg');
+  if (!sym.length) { m.textContent = 'กรุณาเลือกอาการอย่างน้อย 1 ข้อ (หรือ "ไม่มีอาการ")'; return; }
+  const r = document.getElementById('scResult');
+  r.innerHTML = scResultHTML(sym);
+  r.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+document.addEventListener('click', e => {
+  if (e.target.id !== 'scAgain') return;
+  document.getElementById('scForm').reset();
+  document.getElementById('scResult').innerHTML = '';
+  window.scrollTo(0, 0);
+});
+const zoom = document.getElementById('zoom');
+document.getElementById('zoomClose').textContent = 'ปิด';
+document.getElementById('zoomClose').addEventListener('click', () => { zoom.hidden = true; });
+zoom.addEventListener('click', e => { if (e.target === zoom) zoom.hidden = true; });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') zoom.hidden = true; });
+document.addEventListener('click', e => {
+  const z = e.target.closest('[data-zoom]');
+  if (z) { const im = z.querySelector('img'); document.getElementById('zoomImg').src = im.src; document.getElementById('zoomImg').alt = im.alt; document.getElementById('zoomCap').textContent = im.alt; zoom.hidden = false; return; }
+  const b = e.target.closest('[data-go]');
+  if (b) render(b.dataset.go, true);
+});
+window.addEventListener('hashchange', () => render(location.hash.slice(1)));
+render(location.hash.slice(1) || 'home');
+</script>
+</body>
+</html>
