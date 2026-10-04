@@ -179,6 +179,7 @@ main{padding-block:4px 32px}
 <script>
 const PAGES = {
   home: { title: "<span class=\"nw\">คำแนะนำการปฏิบัติตัวผู้ป่วยผ่าตัดต่อมไทรอยด์</span>" },
+  prepost: { title: "การปฏิบัติตัวก่อนและหลังผ่าตัด", parent: "home" },
   preop: { title: "การปฏิบัติตัวก่อนผ่าตัด", parent: "home" },
   postop: { title: "การปฏิบัติตัวหลังผ่าตัด เมื่อกลับบ้าน", parent: "home" },
   inhospital: { title: "การปฏิบัติตัวหลังผ่าตัด ขณะอยู่ที่ รพ.", parent: "home" },
@@ -217,6 +218,11 @@ const VIEWS = {
       ${row('selfcheck','selfcheck','แบบประเมินอาการด้วยตนเอง','เช็กอาการหลังผ่าตัดวันนี้')}
       ${row('rai','rad','การกลืนแร่ไอโอดีนรังสี')}
       ${row('contact','phone','ติดต่อโรงพยาบาล','เบอร์ติดต่อหน่วยตรวจและหอผู้ป่วย')}
+    </div>`,
+  prepost: () => `<div class="list home">
+      ${row('preop','ivicon','การปฏิบัติตัวก่อนผ่าตัด')}
+      ${row('inhospital','hospital','การปฏิบัติตัวหลังผ่าตัด<br>ขณะอยู่ที่ รพ.')}
+      ${row('postop','house','การปฏิบัติตัวหลังผ่าตัด<br>เมื่อกลับบ้าน')}
     </div>`,
   preop: () => `<button class="banner" data-zoom="ivbed" aria-label="ดูภาพผู้ป่วยเตรียมผ่าตัด"><img src="${SIGNS.ivbed}" alt="ผู้ป่วยนอนโรงพยาบาลเตรียมผ่าตัด"></button>
     <div class="section-title">ก่อนวันผ่าตัด (วันนอน รพ.)</div>
